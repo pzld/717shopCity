@@ -1,0 +1,155 @@
+[{
+    "classifyGoods":[{
+        "img":"./static/img/hometaste/jia1@2x.png",
+        "name":"家乡味道1"
+    }, {
+      "img": "./static/img/hometaste/jia2@2x.png",
+      "name": "家乡味道2"
+    }, {
+      "img": "./static/img/hometaste/jia3@2x.png",
+      "name": "家乡味道3"
+    }, {
+      "img": "./static/img/hometaste/jia4@2x.png",
+      "name": "家乡味道4"
+    }, {
+      "img": "./static/img/hometaste/jia5@2x.png",
+      "name": "家乡味道5"
+    }, {
+      "img": "./static/img/hometaste/jia6@2x.png",
+      "name": "家乡味道6"
+    }]
+}, {
+    "classifyGoods": [{
+        "img": "./static/img/importedfood/jin1@2x.png",
+        "name": "酒水饮料1"
+    }, {
+        "img": "./static/img/importedfood/jin2@2x.png",
+        "name": "酒水饮料2"
+    }, {
+        "img": "./static/img/importedfood/jin3@2x.png",
+        "name": "酒水饮料3"
+    }, {
+        "img": "./static/img/importedfood/jin4@2x.png",
+        "name": "酒水饮料4"
+    }, {
+        "img": "./static/img/importedfood/jin5@2x.png",
+        "name": "酒水饮料5"
+    }]
+}, {
+    "classifyGoods": [{
+        "img": "./static/img/drinks/jiu1@2x.png",
+        "name": "家乡味道1"
+    }, {
+        "img": "./static/img/drinks/jiu2@2x.png",
+        "name": "家乡味道2"
+    }, {
+        "img": "./static/img/drinks/jiu3@2x.png",
+        "name": "家乡味道3"
+    }, {
+        "img": "./static/img/drinks/jiu4@2x.png",
+        "name": "家乡味道4"
+    }, {
+        "img": "./static/img/drinks/jiu5@2x.png",
+        "name": "家乡味道5"
+    }, {
+        "img": "./static/img/drinks/jiu6@2x.png",
+        "name": "家乡味道6"
+    }]
+}, {
+    "classifyGoods": [{
+        "img": "./static/img/groceries/mi1@2x.png",
+        "name": "米面粮油1"
+    }, {
+        "img": "./static/img/groceries/mi2@2x.png",
+        "name": "米面粮油2"
+    }, {
+        "img": "./static/img/groceries/mi3@2x.png",
+        "name": "米面粮油3"
+    }, {
+        "img": "./static/img/groceries/mi4@2x.png",
+        "name": "米面粮油4"
+    }, {
+        "img": "./static/img/groceries/mi5@2x.png",
+        "name": "米面粮油5"
+    }, {
+        "img": "./static/img/groceries/mi6@2x.png",
+        "name": "米面粮油6"
+    }, {
+        "img": "./static/img/groceries/mi7@2x.png",
+        "name": "米面粮油7"
+    }]
+}, {
+  "classifyGoods": [{
+        "img": "./static/img/milk/niu1@2x.png",
+        "name": "牛奶乳品1"
+    }, {
+        "img": "./static/img/milk/niu2@2x.png",
+        "name": "牛奶乳品2"
+    }, {
+        "img": "./static/img/milk/niu3@2x.png",
+        "name": "牛奶乳品3"
+    }, {
+        "img": "./static/img/milk/niu4@2x.png",
+        "name": "牛奶乳品4"
+    }]
+}, {
+    "classifyGoods": [{
+        "img": "./static/img/fruitvegetable/shen1@2x.png",
+        "name": "生鲜果蔬1"
+    }, {
+        "img": "./static/img/fruitvegetable/shen2@2x.png",
+        "name": "生鲜果蔬2"
+    }, {
+        "img": "./static/img/fruitvegetable/shen3@2x.png",
+        "name": "生鲜果蔬3"
+    }, {
+        "img": "./static/img/fruitvegetable/shen4@2x.png",
+        "name": "生鲜果蔬4"
+    }]
+}, {
+    "classifyGoods": [{
+        "img": "./static/img/microspices/tiao1@2x.png",
+        "name": "调味调料1"
+    }, {
+        "img": "./static/img/microspices/tiao2@2x.png",
+        "name": "调味调料2"
+    }, {
+        "img": "./static/img/microspices/tiao3@2x.png",
+        "name": "调味调料3"
+    }, {
+        "img": "./static/img/microspices/tiao4@2x.png",
+        "name": "调味调料4"
+    }, {
+        "img": "./static/img/microspices/tiao5@2x.png",
+        "name": "调味调料5"
+    }, {
+        "img": "./static/img/microspices/tiao6@2x.png",
+        "name": "调味调料6"
+    }, {
+        "img": "./static/img/microspices/tiao7@2x.png",
+        "name": "调味调料7"
+    }]
+}, {
+    "classifyGoods": [{
+        "img": "./static/img/snack/xiu1@2x.png",
+        "name": "休闲零食1"
+    }, {
+        "img": "./static/img/snack/xiu2@2x.png",
+        "name": "休闲零食2"
+    }, {
+        "img": "./static/img/snack/xiu3@2x.png",
+        "name": "休闲零食3"
+    }, {
+        "img": "./static/img/snack/xiu4@2x.png",
+        "name": "休闲零食4"
+    }, {
+        "img": "./static/img/snack/xiu5@2x.png",
+        "name": "休闲零食5"
+    }, {
+        "img": "./static/img/snack/xiu6@2x.png",
+        "name": "休闲零食6"
+    }, {
+        "img": "./static/img/snack/xiu7@2x.png",
+        "name": "休闲零食7"
+    }]
+}]

@@ -1,0 +1,145 @@
+.home {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background: #f6f5f5;
+}
+
+.home>header {
+  width: 100%;
+  height: .9rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: .15rem .3rem;
+  box-sizing: border-box;
+  background: #fff;
+}
+
+.home>header>.icon {
+  width: 1rem;
+}
+
+.home>header>.icon>img {
+  width: 100%;
+  height: auto;
+}
+
+.home>header>.search {
+  width: 3.85rem;
+  height: .6rem;
+  background: #eee;
+  border-radius: .05rem;
+  padding-left: .45rem;
+  box-sizing: border-box;
+}
+.home>header>.search>i{
+  font-size: .3rem;
+}
+.home>header>.search>input {
+  width: 85%;
+  height: .6rem;
+  box-sizing: border-box;
+  border: 0;
+  outline: 0;
+  background: none;
+  padding-left: .1rem;
+}
+.home>header>.search>input::-webkit-input-placeholder{
+  font-size: .25rem;
+}
+
+.home>header>div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 .05rem;
+  color: #fc4141;
+  line-height: .4rem;
+  box-sizing: border-box;
+}
+
+header>div>i {
+  font-size: .4rem !important;
+}
+
+.home>.section {
+  flex: 1;
+  width: 100%;
+  overflow-y: scroll;
+}
+
+.advert {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: .8rem;
+  margin: .2rem 0;
+  background: #fff;
+  padding: 0 .3rem;
+  box-sizing: border-box;
+}
+
+.advert>.tit {
+  width: .6rem;
+  height: .7rem;
+  color: #ff7924;
+  font-size: .25rem;
+  font-weight: bold;
+}
+
+.advert>.navBanner {
+  margin-left: .1rem;
+  padding: .1rem;
+  box-sizing: border-box;
+  overflow: hidden;
+  border: .01rem solid #ccc;
+  margin: .1rem 0;
+  border-radius: .1rem;
+  width: 6.25rem;
+  height: .6rem;
+  
+}
+
+.navBanner>.swiper-wrapper {
+  height: .6rem;
+}
+
+.navBanner>.swiper-wrapper>.swiper-slide {
+    height: .6rem !important;
+  font-size: .25rem;
+}
+.middle{
+    width: 100%;
+    background: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: .22rem .3rem;
+    box-sizing: border-box;
+    font-size: .22rem;
+}
+.middle>.left{
+    color: #ff6d00;
+}
+.middle>.right{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.middle>.right>i{
+  font-size: .25rem !important;
+}
+.middle>.left>b{
+    font-size: .28rem;
+    display: inline-block;
+    margin-right: .12rem;
+}
+.lastMsg{
+  width: 100%;
+  text-align: center;
+  font-size: .3rem;
+}

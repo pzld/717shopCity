@@ -1,0 +1,78 @@
+.detail{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+.detail>.detailHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: .8rem;
+    border:.01rem solid #ccc;
+    font-size: .3rem;
+    padding:0 .3rem;
+    box-sizing: border-box;
+}
+.detail>.detailHeader>i{
+    font-size: .3rem;
+}
+.detailSection{
+    width: 100%;
+    overflow-y: scroll;
+    flex: 1;
+}
+.detailSection>dl{
+    width: 5.5rem;
+    margin: .6rem auto;
+}
+.detailSection>dl>dt{
+    width: 100%;
+    height: 5.5rem;
+}
+.detailSection>dl>dt>img{
+    width: 100%;
+    height: 100%;
+}
+.detailSection>dl>dd{
+    font-size: .3rem;
+    margin-top: .5rem;
+    font-weight: bold;
+}
+.detialFooter{
+    width: 100%;
+    height: 1rem;
+    border-top: .01rem solid #ccc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .3rem;
+}
+.detialFooter>.left>span{
+    font-size: .4rem;
+    color: red;
+    font-weight: bold;
+}
+.detialFooter>.right{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 100%;
+}
+.detialFooter>.right>span{
+    width: 2rem;
+    height: 1rem;
+    color: #fff;
+    font-size: .32rem;
+    text-align: center;
+    line-height: 1rem;
+}
+.detailCart{
+    background: orange
+}
+.detailBuy {
+  background: orangered
+}
