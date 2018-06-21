@@ -42,12 +42,14 @@ export default new vuex.Store({
           '绿色无公害 无污染 无添加 天然有机蔬菜源头22222222222222',
           '绿色无公害 无污染 无添加 天然有机蔬菜源头33333333333333'
         ],
-        classifyFoods:[]
+        allChecked:false
     },
     mutations:{
        
     },
     actions:{
-        
+       allChecked({commit}){
+          console.log(commit)
+       }
     }
 })

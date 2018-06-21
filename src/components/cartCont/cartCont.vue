@@ -6,25 +6,41 @@
     </div>
 </template>
 <script>
+import bus from '../../utils/bus.js'
 export default {
     name:'cartCont',
+    props:['idx'],
     data(){
         return{
-            cont:1
+            cont:1,
+            goodsMsg:[],
+            sum:0
         }
     },
     methods:{
         minus(){
             if(this.cont==1){
-                this.cont =1
+                this.cont =1;
+                bus.$emit('sum',0)
             }else{
                 this.cont--
+                this.sum = this.goodsMsg[this.idx].pri
+                bus.$emit('sum',-this.sum)
             }
             
         },
         add(){
-            this.cont++
+            this.cont++;
+            this.sum = this.goodsMsg[this.idx].pri
+            bus.$emit('sum',this.sum)
+            bus.$on('checkbox',checkbox=>{
+                console.log(checkbox)
+            })
         }
+    },
+    mounted(){
+        this.goodsMsg = JSON.parse(localStorage.getItem('goodsMsg'));
+        
     }
 }
 </script>
