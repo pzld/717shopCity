@@ -1,0 +1,114 @@
+.register {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.registerHeader {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 1rem;
+  border-bottom: .01rem solid #ccc;
+  padding:0 .2rem;
+  box-sizing: border-box;
+  font-size: .3rem;
+  position: relative;
+}
+
+.registerHeader i {
+  font-size: .3rem;
+}
+
+.registerHeader h3 {
+  font-size: .4rem;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%)
+}
+
+.registerSection {
+  width: 100%;
+  flex: 1;
+  overflow-y: scroll;
+ 
+}
+.registerIpt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.registerIpt>h3 {
+  font-family: SFNSDisplay;
+  font-size: 20px;
+  color: #454545;
+  letter-spacing: 0;
+  line-height: 20px;
+  padding: .3rem 0;
+  width: 100%;
+  text-align: center;
+}
+
+.registerIpt>p {
+  width: 80%;
+  padding: .1rem 0;
+  border-bottom: .01rem solid #ccc;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 1.2rem;
+}
+
+.registerIpt>p>img {
+  width: .48rem;
+  height: .48rem;
+}
+
+.registerIpt>p>input {
+  margin: 0 .25rem;
+  height: 1.2rem;
+  border: none;
+  outline: none;
+  width: 100%;
+}
+
+.registerIpt>p>input::-webkit-input-placeholder {
+  font-size: .3rem;
+  color: #C0C0C0;
+  letter-spacing: 0;
+  line-height: 15px;
+}
+
+.registerIpt>.vCode {
+  position: relative;
+}
+
+.registerIpt>.vCode>span {
+  display: inline-block;
+  font-size: .28rem;
+  color: #454545;
+  letter-spacing: 0;
+  line-height: 14px;
+  position: absolute;
+  right: 0;
+}
+
+.registerIpt>p>.vCodeIpt {
+  width: 2rem;
+}
+
+.registerBtn>span {
+  display: inline-block;
+  background-image: linear-gradient(90deg, #46C18C 0%, #47C372 49%, #6ED552 100%);
+  border-radius: 100px;
+  width: 6rem;
+  height: .9rem;
+  text-align: center;
+  line-height: .9rem;
+  font-size: .3rem;
+  color: #FFFFFF;
+  letter-spacing: 0;
+  margin-top: 1rem;
+}

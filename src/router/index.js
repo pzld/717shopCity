@@ -46,20 +46,6 @@ let router = new Router({
           component: mine
         }]
     },{
-      path: '/login/signin',
-      name:'login',
-      component: signin,
-      redirect: '/login/signin',
-      children:[{
-        path: 'register',
-        name: 'register',
-        router: register
-      }, {
-        path: 'signin',
-        name: 'signin',
-        router: signin
-      }]
-    },{
       path:'/search',
       name:'search',
       component:search
@@ -67,16 +53,28 @@ let router = new Router({
       path:'/detail',
       name:'detail',
       component:detail
+    }, {
+      path: '/register',
+      name: 'register',
+      component: register
+    }, {
+      path: '/signin',
+      name: 'signin',
+      component: signin
     }]
 })
 
-// router.beforeEach((to,from,next)=>{
-//   if (to.path === '/home/index' || to.path === '/home/classify' || to.path === '/search' || to.path === '/login') {
-//       next()
-//   }else{
-//       next('/login');
-//   }
+router.beforeEach((to,from,next)=>{
+  if(sessionStorage.getItem('code')){
+      next()
+  }else{
+    if (to.path === '/home/index' || to.path === '/home/classify' || to.path === '/search' || to.path === '/register' || to.path === '/signin' || to.path === '/detail') {
+      next()
+    } else {
+      next('/signin');
+    }
+  }
   
-// })
+})
 
 export default router;
