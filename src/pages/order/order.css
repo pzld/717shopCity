@@ -1,0 +1,40 @@
+.order{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.orderHeader{
+    width: 100%;
+    height: 1rem;
+    border-bottom: .02rem solid #ccc;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: .3rem;
+    box-sizing: border-box;
+    font-size: .35rem;
+    position: relative;
+}
+.orderHeader>i{
+    font-size: .35rem!important;
+}
+orderHeader>h3{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+}
+.orderNav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: .3rem;
+    padding: .3rem;
+    box-sizing: border-box;
+}
+.orderNav>.router-link-active{
+    border-bottom: .02rem solid orangered;
+    color: orangered
+}

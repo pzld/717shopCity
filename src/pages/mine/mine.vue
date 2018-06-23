@@ -39,7 +39,7 @@
                 <span>售后</span>
             </li>
             <li>
-                <i class="icon iconfont icon-dingdan"></i>
+                <i class="icon iconfont icon-dingdan" @click="goOrder"></i>
                 <span>我的订单</span>
             </li>
         </ul>
@@ -52,7 +52,7 @@
                 </p>
                 <i class="icon iconfont icon-xiangyou"></i>
             </li>
-            <li @click="addAdmin">
+            <li>
                 <p>
                     <i class="icon iconfont icon-dizhiguanli"></i>
                     <span>地址管理</span>
@@ -72,8 +72,8 @@
 <script>
 export default {
     methods:{
-        addAdmin(){
-            this.$router.push("/region")
+        goOrder(){
+            this.$router.push("/order")
         }
     }
 }

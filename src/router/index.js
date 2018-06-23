@@ -9,7 +9,13 @@ import home from '../pages/home.vue';
 import detail from '../pages/detail/detail.vue';
 import register from '../pages/login/register/register.vue';
 import signin from '../pages/login/signin/signin.vue';
-import index from '../pages/index/index.vue'
+import index from '../pages/index/index.vue';
+import order from '../pages/order/order.vue';
+import nopay from '../pages/order/nopay/nopay.vue';
+import nodelivery from '../pages/order/nodelivery/nodelivery.vue';
+import noreceived from '../pages/order/noreceived/noreceived.vue';
+import afterSale from '../pages/order/afterSale/afterSale.vue';
+import orderAll from '../pages/order/all/all.vue';
 Vue.use(Router);
 
 let router = new Router({
@@ -61,6 +67,32 @@ let router = new Router({
       path: '/signin',
       name: 'signin',
       component: signin
+    },{
+      path:'/order',
+      name:'order',
+      component:order,
+      redirect:'/order/all',
+      children:[{
+        path: 'nopay',
+        name: 'nopay',
+        component: nopay
+      },{
+        path: 'nodelivery',
+        name: 'nodelivery',
+        component: nodelivery
+      }, {
+        path: 'noreceived',
+        name: 'noreceived',
+        component: noreceived
+      }, {
+        path: 'afterSale',
+        name: 'afterSale',
+        component: afterSale
+      },{
+        path:'all',
+        name:'all',
+        component:orderAll
+      }]
     }]
 })
 

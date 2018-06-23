@@ -6,6 +6,7 @@
 }
 .bg{
     background: url(../../../static/img/mineBg.png);
+    background-size: 100%;
 }
 .mineHeader {
   height: .8rem;
@@ -21,7 +22,7 @@
 }
 
 .top {
-  height: 1.8rem;
+  height: 2.5rem;
   width: 100%;
 }
 
@@ -80,7 +81,7 @@
 }
 
 .img {
-  width: 1.2rem;
+  width: 2rem;
   margin: 0 auto;
   padding-top: .2rem;
   text-align: center;
